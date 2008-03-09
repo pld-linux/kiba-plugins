@@ -1,0 +1,14 @@
+Index: src/sysinfo.c
+===================================================================
+--- src/sysinfo.c	(revision 722)
++++ src/sysinfo.c	(working copy)
+@@ -746,8 +746,7 @@
+ 	gint i;
+ 	
+ #ifndef USE_SVG
+-	kiba_debug_message_error (DEBUG_INFO,
+-		"KibaSysinfo: this Plugin requires librsvg\n");
++	DEBUG_INFO ("KibaSysinfo: this Plugin requires librsvg\n");
+ 	return FALSE;
+ #else
+ 	
