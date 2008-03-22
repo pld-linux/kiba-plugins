@@ -1,12 +1,12 @@
 ######		Unknown group!
 Summary:	Funky application dock for X11
 Name:		kiba-plugins
-Version:	0.0.722
+Version:	0.0.731
 Release:	1
 Group:		System/X11
 URL:		http://kiba-plugins.org/
-Source0:	%{name}-r722.tar.bz2
-# Source0-md5:	30212df68d08790465db33faaaacaaee
+Source0:	%{name}-r731.tar.bz2
+# Source0-md5:	20af42d79de9fe321b16ca50276a5934
 Patch0:		%{name}-debugfix.patch
 License:	GPL
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
