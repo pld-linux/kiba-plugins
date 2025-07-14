@@ -16,7 +16,7 @@ Funky dock for X11
 
 %prep
 %setup -q -n %{name}
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 # This is a CVS snapshot, so we need to generate makefiles.
